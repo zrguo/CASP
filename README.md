@@ -22,7 +22,7 @@ git clone https://github.com/zrguo/CASP.git
 
 ### Datasets
 
-We utilize the extracted data from CMU-MOSEI, CMU-MOSI, and CH-SIMS. The [Toolkit](https://github.com/thuiar/MMSA-FET) is employed for data extraction. While you may opt for different feature extraction methods, please ensure consistency across all datasets to maintain the same dimensionality for model transfer. We will release our extracted datasets in future for convenience.
+We utilize the extracted data from CMU-MOSEI, CMU-MOSI, and CH-SIMS. The [Toolkit](https://github.com/thuiar/MMSA-FET) is employed for data extraction. While you may opt for different feature extraction methods, please ensure consistency across all datasets to maintain the same dimensionality for model transfer. We provide our extracted datasets using one of the extraction methods at [Google Drive](https://drive.google.com/file/d/1tQSw1S16ujHQ069W3QTi3BJ49Q8Gya8N/view).
 
 ### Running the Code
 
@@ -88,11 +88,11 @@ python main.py --stage "pseudo" --pretrained_model "stage1/[modelname].pt" --dat
 If you find the repository useful, please cite the following paper:
 
 ```bibtex
-@inproceedings{guo2024bridging,
+@inproceedings{guo2025bridging,
   title={Bridging the Gap for Test-Time Multimodal Sentiment Analysis},
   author={Guo, Zirun and Jin, Tao and Xu, Wenlong and Lin, Wang and Wu, Yangyang},
   booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-  year={2024}
+  year={2025}
 }
 ```
 
